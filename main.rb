@@ -3,7 +3,7 @@ require "./pokerHand.rb"
 hand = PokerDeck.new
 handCount = [0,0,0,0,0,0,0,0,0,0]
 pCount =  [0,0,0,0,0,0,0,0,0,0]
-e = hand.possibleHands(11)
+e = hand.possibleHands(12)
 hands = 0
 e.each do |hand|
   currentHand = PokerHand.new(hand)
